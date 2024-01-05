@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+
+
+
+<html>
+<head>
+<link rel = "stylesheet" href = "style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+<div id = "horizontal1">
+  <select id = "input_bandwith">
+    <option id = "op120">120</option>
+    <option id ="op80">80</option>
+    <option id = "op40">40</option>
+    <option id ="op10">10</option>
+  </select>
+  <input type="number" id="input_1" min="1" max="50" value="1">
+  <input type="number" id="input_2" min="1" max="50" value="12">
+  <input type="number" id="input_3" min="1" max="50" value="12">
+  <button id = "calculate_" onclick="calc_()">Hesapla</button>
+ 
+  <button id = "draw"  onclick = "sort_location_Data()">Çiz</button>
+  <button id = "refresh_"  onclick = "drawCircles()" ></button>
+</div>
+<div id = "general_">
+  <div id = "general_ineer_div">
+  </div>
+  
+</div>
+<div id = "horizontal2"></div>
+
+<script src = "randomizer.js"></script>
+<script src = "sorting.js"></script>
+<script src = "algorithms.js"></script>
+</body>
+
+
+</html>
+
+

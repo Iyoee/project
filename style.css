@@ -1,0 +1,151 @@
+
+
+
+body{
+  display: flex;
+  flex-direction: column ;
+  background-color: rgb(58, 58, 58);
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin : 0 ; 
+} 
+#general_{
+  background-color: red;
+  position: relative;
+  width: 1228px;
+  justify-content: center;
+  align-items: center;
+  height: 590px;
+  display: flex;
+  border-radius: 10px;
+}
+#general_ineer_div{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(120, 119, 119);
+  position: absolute;
+  border-radius: 5px;
+  
+  
+}
+.circle{
+  position: absolute ; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  background-color: white;
+  color: white;
+}
+.my_line{
+  border: 2px solid white;
+  z-index: 1;
+  position: absolute;
+}
+
+#horizontal1{
+  width: 80%;
+  height: 10%;
+  position: relative;
+  background-color: rgb(63, 73, 77);
+  display: flex;
+  align-items: center;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+/*
+#back_button{
+width: 10%;
+height: 80%;
+justify-self:start;
+background-color: black;
+color:white;
+border-radius: 10px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 110%;
+margin-right: 5%;
+margin-left:2%;
+}
+*/
+#input_1,
+#input_2{
+  width: 5%;
+  height: 50%;
+}
+#input_bandwith{
+  background-color: black;
+  color: white;
+  margin-right: 2%;
+  width: 10%;
+  height: 30%;
+  border-radius: 2px;
+  border-width: 2px;
+  
+}
+
+#input_1::-webkit-inner-spin-button,
+#input_2::-webkit-inner-spin-button,
+#input_3::-webkit-inner-spin-button,
+#input_bandwith::-webkit-inner-spin-button{
+  display: none;
+}
+#input_1,
+#input_2{
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 5%;
+  height: 40%;
+  font-size: 100%;
+}
+#input_3{
+  background-color: black;
+  color:White;
+  width: 10%;
+  height: 30%;
+  text-align: center;
+  margin-left:3%;
+}
+#calculate_{
+  margin-left: 2%;
+  width: 10%;
+  height: 90%;
+  background-color: rgb(60, 53, 53);
+  color:white;
+  font-size: 120%;
+   margin-right: 5%;
+}
+/*
+#selector_{
+  background-color: black;
+  color: white;
+  width: 18%;
+  height: 40%;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 102%;
+}
+*/
+#draw{
+  margin-left: 10%;
+  width: 30%;
+  height: 60%;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150%;
+  
+}
+#refresh_{
+  margin-left: 10%;
+  width: 7%;
+  margin-right: 3%;
+  height: 90%;
+  border-radius: 50%;
+  background-color: black;
+  border-width: 4px;
+  border-color: rgb(117, 114, 114);
+}
